@@ -1,0 +1,10 @@
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.csproj.AssemblyReference.cache
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.csproj.SuggestedBindingRedirects.cache
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.csproj.GenerateResource.cache
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.csproj.CoreCompileInputs.cache
+C:\Users\fleon\source\repos\Nova\Nova\bin\Debug\Nova.exe.config
+C:\Users\fleon\source\repos\Nova\Nova\bin\Debug\Nova.exe
+C:\Users\fleon\source\repos\Nova\Nova\bin\Debug\Nova.pdb
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.exe
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Nova.pdb
+C:\Users\fleon\source\repos\Nova\Nova\obj\Debug\Test.Vbs.Properties.Resources.resources
