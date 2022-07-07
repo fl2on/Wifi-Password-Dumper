@@ -12,12 +12,16 @@ namespace Nova
 {
     internal class Program
     {
-        internal static readonly char[] chars =
-        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".ToCharArray();
+        internal static readonly char[] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".ToCharArray();
+        
         private static int count = 0;
+        
         static int count_names = 0;
+        
         static DataTable table = new DataTable();
+        
         static string pass = "";
+        
         public static string RandomString(int size)
         {
             byte[] data = new byte[4 * size];
@@ -52,6 +56,7 @@ namespace Nova
             processWifi.WaitForExit();
             return output;
         }
+        
         private static string wifipassword(string wifiname)
         {
             string argument = "wlan show profile name=\"" + wifiname + "\" key=clear";
@@ -69,6 +74,7 @@ namespace Nova
             processWifi.WaitForExit();
             return output;
         }
+        
         private static string wifipassword_single(string wifiname)
         {
             string get_password = wifipassword(wifiname);
@@ -102,6 +108,7 @@ namespace Nova
                 }
             }
         }
+        
         private static void regex_lines(string input2)
         {
             Regex regex1 = new Regex(@"Perfil de todos los usuarios * : (?<after>.*)");
@@ -116,6 +123,7 @@ namespace Nova
                 Clipboard.SetText(x);
             }
         }
+        
         private static void reset_all()
         {
             pass = "";
